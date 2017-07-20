@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/desert_storm"
     tools:context="com.example.yj.bluetoothapplication.ui.activities.SendToHCModule">
 
     <TextView
@@ -21,12 +22,13 @@
         android:id="@+id/bottomBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true">
         <Button
             android:id="@+id/sendButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
             android:text="@string/send_to_nav"/>
     </RelativeLayout>
 </RelativeLayout>

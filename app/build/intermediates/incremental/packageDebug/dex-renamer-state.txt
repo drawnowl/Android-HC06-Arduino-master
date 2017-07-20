@@ -1,4 +1,4 @@
-#Thu Jul 20 13:10:43 EEST 2017
+#Thu Jul 20 13:25:04 EEST 2017
 base.0=/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fb3c814905cbefb106fc38bbf840e5f6d28ebf34
 renamed.1=classes.dex
 renamed.0=classes2.dex
