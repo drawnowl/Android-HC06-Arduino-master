@@ -10,15 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/desert_storm"
     tools:context="com.example.yj.bluetoothapplication.ui.activities.SendToHCModule">
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_margin="50dp"/>
+
     <TextView
         android:id="@+id/logTextView"
         android:layout_width="match_parent"

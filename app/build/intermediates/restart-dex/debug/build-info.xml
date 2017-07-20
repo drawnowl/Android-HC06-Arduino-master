@@ -6,22 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500547197536"
+    timestamp="1500547424075"
     token="8652446753060238986"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1134" />
+        duration="860" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="9" />
+        duration="3" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
     <artifact
         location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -73,7 +73,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500547110741"
+        timestamp="1500547357665"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/outputs/apk/app-debug.apk"
@@ -81,7 +81,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500547197536"
+        timestamp="1500547424075"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
