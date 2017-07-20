@@ -46,4 +46,5 @@
     <string name="empty_nav_number">Номер для записи в навигатор не должно быть пустым!</string>
     <string name="check_dublicates">Нельзя добавить группу с дублирующимися номерами</string>
     <string name="send_to_nav">Отправить</string>
+    <string name="add_location_warning">Add locations first!</string>
 </resources>

@@ -6,25 +6,31 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500547424075"
+    timestamp="1500548089667"
     token="8652446753060238986"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
-        duration="860" />
+        duration="1153" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3" />
+        duration="48" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
 
     <artifact
+        location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
         location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/outputs/apk/app-debug.apk"
@@ -73,18 +79,16 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500547357665"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1500548089667"
+        verifier="R_CLASS_CHANGE" >
         <artifact
-            location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1500547424075"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/outputs/apk/app-debug.apk"
