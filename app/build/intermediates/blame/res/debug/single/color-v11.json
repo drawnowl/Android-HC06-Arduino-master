@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/drawnowl/.android/build-cache/42cf56bb84c5dc50f8d2c8773a7800cac08d39b9/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_favorite_black_24dp.xml",
+        "source": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_favorite_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/drawnowl/.android/build-cache/42cf56bb84c5dc50f8d2c8773a7800cac08d39b9/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_map_black_24dp.xml",
+        "source": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_map_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_person_black_24dp.xml",
+        "source": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_home_black_24dp.xml",
+        "source": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home_black_24dp.xml"
+    }
+]
