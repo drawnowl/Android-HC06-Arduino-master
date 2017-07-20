@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jul 20 13:42:39 EEST 2017
+#Thu Jul 20 15:08:26 EEST 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
 14.set=ANDROID_RESOURCE

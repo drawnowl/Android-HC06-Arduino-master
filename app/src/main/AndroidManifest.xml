@@ -28,7 +28,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activities.FavoritesActivity"
-            android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait" />
         <activity android:name=".ui.activities.MapActivity"
             android:screenOrientation="portrait" />

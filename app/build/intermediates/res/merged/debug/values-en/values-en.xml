@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="add_location_warning">Add locations first!</string>
     <string name="already_registered">Already registered?</string>
     <string name="app_name">SQ BlueTooth</string>
     <string name="back">Back</string>
     <string name="change_password">Change password</string>
     <string name="change_password_sended">Check your e-mail for reset password instructions</string>
     <string name="choose_file">Choose file</string>
+    <string name="done">All Done!</string>
     <string name="empty_nav_number">Empty Navigator Number Field!</string>
     <string name="enter_email_et">Enter e-mail</string>
     <string name="enter_new_email">Enter new password</string>

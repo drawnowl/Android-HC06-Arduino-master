@@ -14,6 +14,7 @@ public class LocationItem implements Serializable {
     public double lng;
     public String navigatorNumber;
     public boolean isChecked;
+    public String key;
 
     public LocationItem() {
     }
@@ -43,6 +44,14 @@ public class LocationItem implements Serializable {
         this.title = s;
         this.groupName = s1;
         this.isChecked = b;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
     }
 
     public String getOrderNumber() {

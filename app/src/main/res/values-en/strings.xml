@@ -45,4 +45,7 @@
     <string name="login_first">Sign up or login first</string>
     <string name="empty_nav_number">Empty Navigator Number Field!</string>
     <string name="send_to_nav">Send</string>
+
+    <string name="add_location_warning">Add locations first!</string>
+    <string name="done">All Done!</string>
 </resources>

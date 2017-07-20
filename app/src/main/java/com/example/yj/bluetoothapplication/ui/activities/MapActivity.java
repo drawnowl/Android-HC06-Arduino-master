@@ -49,13 +49,7 @@ public class MapActivity extends GMSLocationActivity implements MapEventsReceive
 
     private DatabaseReference databaseReference;
     private RelativeLayout dialogMarkerView;
-    private Button infoSendBtn;
     private Button mBtn;
-    private EditText infoOrderNumber;
-    private EditText infoTitleEt;
-    private EditText infoGroupName;
-    private EditText infoNavigatorNumber;
-    private EditText infoStatus;
     private TextView mTitle;
     private TextView mDescription;
     private Marker mMarker;
@@ -214,11 +208,11 @@ public class MapActivity extends GMSLocationActivity implements MapEventsReceive
             dialogMarkerView = (RelativeLayout) getLayoutInflater()
                     .inflate(R.layout.dialog_marker_enter_info, null);
 
-            infoSendBtn = (Button)dialogMarkerView.findViewById(R.id.btn_marker_info_send);
-            infoTitleEt = (EditText)dialogMarkerView.findViewById(R.id.etMarkerTitle);
-            infoGroupName = (EditText)dialogMarkerView.findViewById(R.id.etMarkerGroupName);
-            infoOrderNumber = (EditText) dialogMarkerView.findViewById(R.id.etMarkerOrderNumber);
-            infoNavigatorNumber = (EditText) dialogMarkerView.findViewById(R.id.etMarkerNavigatorNumber);
+            Button infoSendBtn = (Button) dialogMarkerView.findViewById(R.id.btn_marker_info_send);
+            EditText infoTitleEt = (EditText)dialogMarkerView.findViewById(R.id.etMarkerTitle);
+            EditText infoGroupName = (EditText)dialogMarkerView.findViewById(R.id.etMarkerGroupName);
+            EditText infoOrderNumber = (EditText) dialogMarkerView.findViewById(R.id.etMarkerOrderNumber);
+            EditText infoNavigatorNumber = (EditText) dialogMarkerView.findViewById(R.id.etMarkerNavigatorNumber);
 
             dialog.setView(dialogMarkerView);
             dialog.show();
@@ -262,6 +256,7 @@ public class MapActivity extends GMSLocationActivity implements MapEventsReceive
     public void removeMarker(Marker marker) {
         marker.closeInfoWindow();
         String markerId = markersId.get(marker);
+        Log.e("TAG", markerId);
         showProgress();
         databaseReference.child(getUid()).child(markerId).removeValue(new DatabaseReference.CompletionListener() {
             @Override

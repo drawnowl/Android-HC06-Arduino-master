@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.util.Log;
 import android.view.View;
@@ -18,6 +17,7 @@ import android.widget.Toast;
 import com.example.yj.bluetoothapplication.R;
 import com.example.yj.bluetoothapplication.adapters.FavViewDataAdapter;
 import com.example.yj.bluetoothapplication.data.LocationItem;
+import com.example.yj.bluetoothapplication.ui.activities.userCabinet.LoginActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -26,7 +26,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class FavoritesActivity extends AppCompatActivity {
 
@@ -42,28 +44,18 @@ public class FavoritesActivity extends AppCompatActivity {
     private DatabaseReference databaseReference;
     private ArrayList<LocationItem> locationItems;
     private ProgressBar progressBar;
+    private Map<LocationItem, String> locationId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_favorites);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
-
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         databaseReference = database.getReference("locations");
 
         locationItems = new ArrayList<>();
+        locationId = new HashMap<>();
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         sendValues = (Button) findViewById(R.id.sendCoordinates);
@@ -86,23 +78,27 @@ public class FavoritesActivity extends AppCompatActivity {
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int id) {
                                     dialog.cancel();
+                                    Intent intent = new Intent(FavoritesActivity.this, LoginActivity.class);
+                                    startActivity(intent);
                                 }
                             });
             AlertDialog alert = builder.create();
+
             alert.show();
-            return;
         } else {
             checkEmptyList();
 
             databaseReference.child(getUid()).addValueEventListener(new ValueEventListener() {
                 public void onDataChange(DataSnapshot snapshot) {
                     showProgress();
+                    locationItems = new ArrayList<LocationItem>();
+
                     for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                         LocationItem locationItem = postSnapshot.getValue(LocationItem.class);
+                        locationItem.setKey(postSnapshot.getKey());
                         locationItems.add(locationItem);
+                        adapter = new FavViewDataAdapter(locationItems);
                     }
-
-                    adapter = new FavViewDataAdapter(locationItems);
 
                     simpleItemTouchCallback = new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {
                         @Override
@@ -114,14 +110,15 @@ public class FavoritesActivity extends AppCompatActivity {
                         public void onSwiped(RecyclerView.ViewHolder viewHolder, int swipeDir) {
                             // Remove swiped item from list and notify the RecyclerView
 
-//                    LocationItem favItem = (LocationItem) adapter.getItem(0);
-//                    Log.e("TAG", favItem.getTitle());
-//                    databaseReference.child(getUid()).child(favItem.getKey).removeValue();
-//                    databaseReference.child(getUid()).child(((FavViewDataAdapter) viewHolder)).removeValue();
+                            final int position = viewHolder.getAdapterPosition();
+
+                            databaseReference.child(getUid()).child(locationItems.get(position).getKey()).removeValue();
+                            adapter.notifyItemRemoved(position);
                         }
                     };
-//            itemTouchHelper.attachToRecyclerView(recyclerView);
-//            itemTouchHelper = new ItemTouchHelper(simpleItemTouchCallback);
+
+                    itemTouchHelper = new ItemTouchHelper(simpleItemTouchCallback);
+                    itemTouchHelper.attachToRecyclerView(recyclerView);
                     recyclerView.setAdapter(adapter);
                     hideProgress();
                 }
@@ -130,6 +127,7 @@ public class FavoritesActivity extends AppCompatActivity {
                 public void onCancelled(DatabaseError databaseError) {
 
                 }
+
             });
         }
     }
@@ -142,6 +140,7 @@ public class FavoritesActivity extends AppCompatActivity {
                     recyclerView.setVisibility(View.INVISIBLE);
                     emptyView_tv.setVisibility(View.VISIBLE);
                     emptyView_btn.setVisibility(View.VISIBLE);
+                    sendValues.setVisibility(View.INVISIBLE);
 
                     emptyView_btn.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -178,6 +177,7 @@ public class FavoritesActivity extends AppCompatActivity {
                             String.valueOf(locationItem.getLat()).replace(".", "").substring(0, 8) +
                             String.valueOf(locationItem.getLng()).replace(".", "").substring(0, 8) +
                             "W" + res);
+                    Log.e("TAG", res);
                 }
             }
 

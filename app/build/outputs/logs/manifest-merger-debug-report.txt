@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:2:1-46:12
+ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:3:5-50
 		INJECTED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml
@@ -65,7 +65,7 @@ ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/An
 	android:name
 		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:13:22-65
 application
-ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:15:5-45:19
+ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:15:5-44:19
 MERGED from [com.android.support:design:25.3.1] /Users/drawnowl/.android/build-cache/42cf56bb84c5dc50f8d2c8773a7800cac08d39b9/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/drawnowl/.android/build-cache/0ca17e55cf0f89a1903ad93235aed010a4007937/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/drawnowl/.android/build-cache/6cd77a8d057203ace66419f8936c90b7764b7a5c/output/AndroidManifest.xml:9:5-20
@@ -121,49 +121,47 @@ ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/An
 	android:name
 		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:27:27-74
 activity#com.example.yj.bluetoothapplication.ui.activities.FavoritesActivity
-ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:30:9-32:52
+ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:30:9-31:52
 	android:screenOrientation
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:32:13-49
-	android:theme
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:31:13-56
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:31:13-49
 	android:name
 		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:30:19-66
 activity#com.example.yj.bluetoothapplication.ui.activities.MapActivity
-ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:33:9-34:52
+ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:32:9-33:52
 	android:screenOrientation
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:34:13-49
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:33:13-49
 	android:name
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:33:19-60
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:32:19-60
 activity#com.example.yj.bluetoothapplication.ui.activities.userCabinet.LoginActivity
-ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:35:9-36:52
+ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:34:9-35:52
 	android:screenOrientation
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:36:13-49
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:35:13-49
 	android:name
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:35:19-74
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:34:19-74
 activity#com.example.yj.bluetoothapplication.ui.activities.userCabinet.DashBoard
-ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:37:9-38:52
+ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:36:9-37:52
 	android:screenOrientation
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:38:13-49
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:37:13-49
 	android:name
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:37:19-70
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:36:19-70
 activity#com.example.yj.bluetoothapplication.ui.activities.userCabinet.ForgotPassword
-ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:39:9-40:52
+ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:38:9-39:52
 	android:screenOrientation
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:40:13-49
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:39:13-49
 	android:name
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:39:19-75
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:38:19-75
 activity#com.example.yj.bluetoothapplication.ui.activities.userCabinet.SignUp
-ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:41:9-42:52
+ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:40:9-41:52
 	android:screenOrientation
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:42:13-49
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:41:19-67
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:40:19-67
 activity#com.example.yj.bluetoothapplication.ui.activities.SendToHCModule
-ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:43:9-44:52
+ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:42:9-43:52
 	android:screenOrientation
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:44:13-49
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:43:13-49
 	android:name
-		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:43:19-63
+		ADDED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml:42:19-63
 uses-sdk
 INJECTED from /Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] /Users/drawnowl/.android/build-cache/42cf56bb84c5dc50f8d2c8773a7800cac08d39b9/output/AndroidManifest.xml:21:5-23:62
