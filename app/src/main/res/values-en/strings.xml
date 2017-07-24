@@ -48,4 +48,6 @@
 
     <string name="add_location_warning">Add locations first!</string>
     <string name="done">All Done!</string>
+    <string name="sign_in_success">Sign in success</string>
+    <string name="empty_new_password">New password is empty</string>
 </resources>

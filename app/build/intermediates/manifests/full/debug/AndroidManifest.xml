@@ -56,7 +56,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.yj.bluetoothapplication.ui.activities.DevicesListActivity"
+            android:name="com.hc_06.yj.bluetoothapplication.ui.activities.DevicesListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -66,25 +66,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.yj.bluetoothapplication.ui.activities.FavoritesActivity"
+            android:name="com.hc_06.yj.bluetoothapplication.ui.activities.FavoritesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.yj.bluetoothapplication.ui.activities.MapActivity"
+            android:name="com.hc_06.yj.bluetoothapplication.ui.activities.MapActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.yj.bluetoothapplication.ui.activities.userCabinet.LoginActivity"
+            android:name="com.hc_06.yj.bluetoothapplication.ui.activities.userCabinet.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.yj.bluetoothapplication.ui.activities.userCabinet.DashBoard"
+            android:name="com.hc_06.yj.bluetoothapplication.ui.activities.userCabinet.DashBoard"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.yj.bluetoothapplication.ui.activities.userCabinet.ForgotPassword"
+            android:name="com.hc_06.yj.bluetoothapplication.ui.activities.userCabinet.ForgotPassword"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.yj.bluetoothapplication.ui.activities.userCabinet.SignUp"
+            android:name="com.hc_06.yj.bluetoothapplication.ui.activities.userCabinet.SignUp"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.yj.bluetoothapplication.ui.activities.SendToHCModule"
+            android:name="com.hc_06.yj.bluetoothapplication.ui.activities.SendToHCModule"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"

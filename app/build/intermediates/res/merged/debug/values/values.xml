@@ -761,6 +761,7 @@
     <string name="default_web_client_id" translatable="false">774957841178-vgf5pg8qm35hv0kq76982srg453efleo.apps.googleusercontent.com</string>
     <string name="done">Готово</string>
     <string name="empty_nav_number">Номер для записи в навигатор не должно быть пустым!</string>
+    <string name="empty_new_password">новый пароль не введен</string>
     <string name="enter_email_et">Введите почту</string>
     <string name="enter_new_email">Введите новый пароль</string>
     <string name="enter_pass_et">Введите пароль</string>
@@ -829,6 +830,7 @@
     <string name="set_mode_offline">Set to offline mode</string>
     <string name="set_mode_online">Set to online mode</string>
     <string name="set_mode_show_me">showing and tracking my current location</string>
+    <string name="sign_in_success">Вы успешно вошли</string>
     <string name="sign_up">Зарегистрироваться</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="topo">Topographic</string>

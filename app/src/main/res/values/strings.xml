@@ -48,4 +48,6 @@
     <string name="send_to_nav">Отправить</string>
     <string name="add_location_warning">Сперва выберите локации!</string>
     <string name="done">Готово</string>
+    <string name="sign_in_success">Вы успешно вошли</string>
+    <string name="empty_new_password">новый пароль не введен</string>
 </resources>

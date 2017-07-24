@@ -9,6 +9,7 @@
     <string name="choose_file">Choose file</string>
     <string name="done">All Done!</string>
     <string name="empty_nav_number">Empty Navigator Number Field!</string>
+    <string name="empty_new_password">New password is empty</string>
     <string name="enter_email_et">Enter e-mail</string>
     <string name="enter_new_email">Enter new password</string>
     <string name="enter_pass_et">Enter password</string>
@@ -43,6 +44,7 @@
     <string name="registation_success">Registration success</string>
     <string name="remove">delete</string>
     <string name="send_to_nav">Send</string>
+    <string name="sign_in_success">Sign in success</string>
     <string name="sign_up">Sign up</string>
     <string name="warning">warning</string>
     <string name="welcome">Welcome, </string>
