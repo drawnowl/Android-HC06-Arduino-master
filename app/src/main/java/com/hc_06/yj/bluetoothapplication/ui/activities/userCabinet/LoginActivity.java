@@ -70,6 +70,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             startActivity(new Intent(LoginActivity.this, SignUp.class));
             finish();
         } else if(view.getId() == R.id.login_btn) {
+            if(inputEmail.getText().toString().isEmpty() || inputPassword.getText().toString().isEmpty()) {
+                Toast.makeText(LoginActivity.this, R.string.empty_field, Toast.LENGTH_SHORT).show();
+                return;
+            }
             loginUser(inputEmail.getText().toString(), inputPassword.getText().toString());
         }
     }
@@ -82,8 +86,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         if(!task.isSuccessful()) {
                             inm.hideSoftInputFromWindow(inputPassword.getWindowToken(), 0);
                             if(password.length() < 6) {
-                                snackBar = Snackbar.make(activityLogin, R.string.password_legth_check, Snackbar.LENGTH_LONG);
-                                snackBar.show();
+                                Toast.makeText(LoginActivity.this, R.string.password_legth_check, Toast.LENGTH_SHORT).show();
                             }
                         } else {
                             Toast.makeText(LoginActivity.this, R.string.sign_in_success, Toast.LENGTH_SHORT).show();
