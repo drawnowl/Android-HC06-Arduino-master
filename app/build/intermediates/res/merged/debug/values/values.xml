@@ -760,12 +760,14 @@
     <string name="cyclemap">Cycle Map</string>
     <string name="default_web_client_id" translatable="false">774957841178-vgf5pg8qm35hv0kq76982srg453efleo.apps.googleusercontent.com</string>
     <string name="done">Готово</string>
+    <string name="empty_field">Введены не все данные</string>
     <string name="empty_nav_number">Номер для записи в навигатор не должно быть пустым!</string>
     <string name="empty_new_password">новый пароль не введен</string>
     <string name="enter_email_et">Введите почту</string>
     <string name="enter_new_email">Введите новый пароль</string>
     <string name="enter_pass_et">Введите пароль</string>
     <string name="error">Ошибка: </string>
+    <string name="fail_coordinates_comparing">Координаты считаны не верно.</string>
     <string name="failed_to_send_password">Ошибка при отправлении пароля на почту: </string>
     <string name="fiets_nl">OpenFietsKaart overlay</string>
     <string name="firebase_database_url" translatable="false">https://hc06-route-master.firebaseio.com</string>
