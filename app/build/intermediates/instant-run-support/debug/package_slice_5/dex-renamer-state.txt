@@ -1,4 +1,4 @@
-#Fri Jul 28 22:31:10 EEST 2017
+#Fri Jul 28 23:01:31 EEST 2017
 base.0=/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
 renamed.0=classes.dex
 file.0=/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex
