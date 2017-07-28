@@ -8,12 +8,12 @@
         "source": "/Users/drawnowl/.android/build-cache/42cf56bb84c5dc50f8d2c8773a7800cac08d39b9/output/res/drawable/design_password_eye.xml"
     },
     {
-        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
         "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
         "source": "/Users/drawnowl/.android/build-cache/1773fe56c26ab8bd48559af515c958544df9e119/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
         "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable/marker_default.png",

@@ -3372,7 +3372,7 @@ containing a value of this type.
         public static final int basic=0x7f0d0018;
         public static final int beginning=0x7f0d0042;
         public static final int bottom=0x7f0d0031;
-        public static final int bottomBar=0x7f0d00a8;
+        public static final int bottomBar=0x7f0d00a9;
         public static final int btn_marker_info_send=0x7f0d00d6;
         public static final int bubble_description=0x7f0d00b9;
         public static final int bubble_image=0x7f0d00b6;
@@ -3450,7 +3450,7 @@ containing a value of this type.
         public static final int info=0x7f0d00e6;
         public static final int item_touch_helper_previous_elevation=0x7f0d0006;
         public static final int largeLabel=0x7f0d00c6;
-        public static final int layout=0x7f0d00a6;
+        public static final int layout=0x7f0d00a7;
         public static final int left=0x7f0d0037;
         public static final int light=0x7f0d004f;
         public static final int line1=0x7f0d00eb;
@@ -3458,7 +3458,7 @@ containing a value of this type.
         public static final int listMode=0x7f0d001b;
         public static final int listView=0x7f0d00c4;
         public static final int list_item=0x7f0d0059;
-        public static final int logTextView=0x7f0d00a7;
+        public static final int logTextView=0x7f0d00a8;
         public static final int login_btn=0x7f0d00a2;
         public static final int login_btn_forgot_password=0x7f0d00a3;
         public static final int login_btn_signUp=0x7f0d00a5;
@@ -3467,7 +3467,7 @@ containing a value of this type.
         public static final int login_input_password=0x7f0d00a0;
         public static final int login_layout_or=0x7f0d00a4;
         public static final int login_password=0x7f0d00a1;
-        public static final int map=0x7f0d00aa;
+        public static final int map=0x7f0d00a6;
         public static final int masked=0x7f0d0007;
         public static final int media_actions=0x7f0d00df;
         public static final int middle=0x7f0d0043;
@@ -3516,7 +3516,7 @@ containing a value of this type.
         public static final int search_src_text=0x7f0d007e;
         public static final int search_voice_btn=0x7f0d0082;
         public static final int select_dialog_listview=0x7f0d0083;
-        public static final int sendButton=0x7f0d00a9;
+        public static final int sendButton=0x7f0d00aa;
         public static final int sendCoordinates=0x7f0d0095;
         public static final int shortcut=0x7f0d006d;
         public static final int showCustom=0x7f0d0020;
@@ -3627,8 +3627,8 @@ containing a value of this type.
         public static final int activity_favorites=0x7f04001d;
         public static final int activity_forgot_password=0x7f04001e;
         public static final int activity_login=0x7f04001f;
-        public static final int activity_main=0x7f040020;
-        public static final int activity_map=0x7f040021;
+        public static final int activity_map=0x7f040020;
+        public static final int activity_send_to_hc_module=0x7f040021;
         public static final int activity_sign_up=0x7f040022;
         public static final int app_bar=0x7f040023;
         public static final int bonuspack_bubble=0x7f040024;
@@ -3838,6 +3838,8 @@ containing a value of this type.
         public static final int AppTheme_MyCustomTextAppearance=0x7f0900a9;
         public static final int AppTheme_NoActionBar=0x7f0900aa;
         public static final int AppTheme_PopupOverlay=0x7f0900ab;
+        /**  Customize color of navigation drawer icon and back arrow 
+         */
         public static final int AppTheme_Toolbar=0x7f0900ac;
         public static final int AppTheme_Toolbar_Title=0x7f0900ad;
         public static final int Base_AlertDialog_AppCompat=0x7f0900ae;

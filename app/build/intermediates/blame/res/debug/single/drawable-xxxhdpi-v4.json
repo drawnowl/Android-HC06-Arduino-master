@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
-        "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png",
         "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
@@ -24,12 +24,12 @@
         "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png",
-        "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/design_ic_visibility_off.png",
         "source": "/Users/drawnowl/.android/build-cache/42cf56bb84c5dc50f8d2c8773a7800cac08d39b9/output/res/drawable-xxxhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",

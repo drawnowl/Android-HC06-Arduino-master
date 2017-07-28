@@ -842,7 +842,7 @@ int id auto 0x7f0d0030
 int id basic 0x7f0d0018
 int id beginning 0x7f0d0042
 int id bottom 0x7f0d0031
-int id bottomBar 0x7f0d00a8
+int id bottomBar 0x7f0d00a9
 int id btn_marker_info_send 0x7f0d00d6
 int id bubble_description 0x7f0d00b9
 int id bubble_image 0x7f0d00b6
@@ -920,7 +920,7 @@ int id image 0x7f0d0057
 int id info 0x7f0d00e6
 int id item_touch_helper_previous_elevation 0x7f0d0006
 int id largeLabel 0x7f0d00c6
-int id layout 0x7f0d00a6
+int id layout 0x7f0d00a7
 int id left 0x7f0d0037
 int id light 0x7f0d004f
 int id line1 0x7f0d00eb
@@ -928,7 +928,7 @@ int id line3 0x7f0d00ed
 int id listMode 0x7f0d001b
 int id listView 0x7f0d00c4
 int id list_item 0x7f0d0059
-int id logTextView 0x7f0d00a7
+int id logTextView 0x7f0d00a8
 int id login_btn 0x7f0d00a2
 int id login_btn_forgot_password 0x7f0d00a3
 int id login_btn_signUp 0x7f0d00a5
@@ -937,7 +937,7 @@ int id login_input_email 0x7f0d009e
 int id login_input_password 0x7f0d00a0
 int id login_layout_or 0x7f0d00a4
 int id login_password 0x7f0d00a1
-int id map 0x7f0d00aa
+int id map 0x7f0d00a6
 int id masked 0x7f0d0007
 int id media_actions 0x7f0d00df
 int id middle 0x7f0d0043
@@ -986,7 +986,7 @@ int id search_plate 0x7f0d007d
 int id search_src_text 0x7f0d007e
 int id search_voice_btn 0x7f0d0082
 int id select_dialog_listview 0x7f0d0083
-int id sendButton 0x7f0d00a9
+int id sendButton 0x7f0d00aa
 int id sendCoordinates 0x7f0d0095
 int id shortcut 0x7f0d006d
 int id showCustom 0x7f0d0020
@@ -1093,8 +1093,8 @@ int layout activity_devices_list 0x7f04001c
 int layout activity_favorites 0x7f04001d
 int layout activity_forgot_password 0x7f04001e
 int layout activity_login 0x7f04001f
-int layout activity_main 0x7f040020
-int layout activity_map 0x7f040021
+int layout activity_map 0x7f040020
+int layout activity_send_to_hc_module 0x7f040021
 int layout activity_sign_up 0x7f040022
 int layout app_bar 0x7f040023
 int layout bonuspack_bubble 0x7f040024

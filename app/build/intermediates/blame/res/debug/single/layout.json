@@ -164,6 +164,10 @@
         "source": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/res/layout/activity_devices_list.xml"
     },
     {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/layout/activity_send_to_hc_module.xml",
+        "source": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/src/main/res/layout/activity_send_to_hc_module.xml"
+    },
+    {
         "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/layout/abc_search_view.xml"
     },

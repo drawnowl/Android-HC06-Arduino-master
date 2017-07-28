@@ -36,12 +36,12 @@
         "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
         "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/drawnowl/.android/build-cache/73d1acffa719aedac52747508b888bac20ab64c0/output/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/Users/drawnowl/Downloads/Android-HC06-Arduino-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
